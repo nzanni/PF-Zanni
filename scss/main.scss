@@ -5,45 +5,39 @@ FONDO FOOTER: black
 */
 
 /*BARRA NAVEGACION*/
-ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin-bottom: 0px;
-    flex-wrap: wrap;
-}
 
-ul li a {
+.navbar-nav .nav-link.active, .navbar-nav  {
     color: #F5C518;
-    text-decoration: none;
-    display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-wrap: wrap;
+    background-color: black;
+    padding: auto;
 }
 
-.barra-de-busqueda {
-    margin-left: 70px;
-    margin-right: 70px;
+.navbar {
+    background-color: black !important;
+
 }
 
-.btn-outline-warning {
-    font-size: 10px;
+.navbar-dark .navbar-toggler {
+    color: #F5C518;
+    border-color: #F5C518;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+}
+
+#navbarTogglerDemo03{
+    padding-right: 10px;
 }
 
 /*DISEÑO GENERAL*/
-header {
-    background-color: black;
-    color: #F5C518;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-family: 'Roboto', sans-serif;
-    ;
-}
+
 
 main {
     background-color: black;
     color: #F5C518;
-}
+    }
 
 footer {
     background-color: #F5C518;
