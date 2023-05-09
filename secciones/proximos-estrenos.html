@@ -15,51 +15,57 @@
         href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
-    <meta name="keywords"  content="Peliculas, Series, Plataformas, Maratonear, Netflix, Amazon, Cine, Hoyts, Cinemark, Proximos estrenos">
-    <meta name="description" content="En 'Ver o no ver - Próximos estrenos' veras las películas y series que se estrenaran próximamente en Argentina. Haciendo clic en cada película, podrás acceder a la información de en qué cines o plataformas se proyectarán. Con Ver o no Ver, ya no vas a perder tiempo en buscar donde ver una película o serie, hace los pochoclos que nosotros te decimos donde verla">
+    <meta name="keywords"
+        content="Peliculas, Series, Plataformas, Maratonear, Netflix, Amazon, Cine, Hoyts, Cinemark, Proximos estrenos">
+    <meta name="description"
+        content="En 'Ver o no ver - Próximos estrenos' veras las películas y series que se estrenaran próximamente en Argentina. Haciendo clic en cada película, podrás acceder a la información de en qué cines o plataformas se proyectarán. Con Ver o no Ver, ya no vas a perder tiempo en buscar donde ver una película o serie, hace los pochoclos que nosotros te decimos donde verla">
 </head>
 
 <body>
     <header> <!-- Barra de navegacion-->
-        <header> <!-- Barra de navegacion-->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                  aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="../index.html"> <img src="../IMAGENES/Logo Ver o no ver.PNG"
-                    alt="Logo e inicio de la pagina "></a>
-        
+                        alt="Logo e inicio de la pagina "></a>
+
                 <form action="#" method="get">
-                  <input type="text" placeholder="Película/Serie" name="Pelicula/Serie">
-                  <button type="button" class="btn btn-outline-warning">Buscar</button>
+                    <input type="text" placeholder="Película/Serie" name="Pelicula/Serie">
+                    <button type="button" class="btn btn-outline-warning">Buscar</button>
                 </form>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                  <div class="d-flex justify-content-evenly">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../secciones/donde-ver.html">DONDE VER</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../secciones/proximos-estrenos.html">PRÓXIMOS
-                          ESTRENOS</a></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../secciones/cines.html">CINES</a></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../secciones/streaming.html">STREAMING</a></a>
-                      </li>
-                    </ul>
-                  </div>
+                    <div class="d-flex justify-content-evenly">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../secciones/donde-ver.html">DONDE
+                                    VER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../secciones/proximos-estrenos.html">PRÓXIMOS
+                                    ESTRENOS</a></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../secciones/cines.html">CINES</a></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../secciones/streaming.html">STREAMING</a></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-            </nav>
-          </header>
-    <main>
-        <p class="filtrar-proximos-estrenos">Filtrar</p>
-        <form action="#" method="get" class="filtrar-proximos-estrenos">
+            </div>
+        </nav>
+    </header>
+    <main> <!-- Página-->
+        <div class="filtrar-proximos-estrenos">Filtrar</div>
+        <form action="#" method="get" class="filtrar-proximos-estrenos"> <!--Filtro-->
             <select name="Tiempo">
                 <option value="Semanal">Semanal</option>
                 <option value="Mensual">Mensual</option>
@@ -67,85 +73,85 @@
             </select>
         </form>
         <h4>PROXIMOS ESTRENOS DE STREAMING - SERIES</h4>
-        <div class="ProximosEstrenosDeCine">
-            <div class="ActualmenteEnElCine">
+        <div class="ProximosEstrenos"> <!--Estrenos de Series-->
+            <div class="Peliculas">
                 <img src="../IMAGENES/Proximos estrenos/El aprendiz de sumo - Serie.jpg" alt="El aprendiz del sumo">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
                 <img src="../IMAGENES/Proximos estrenos/El sastre - Serie.jpg" alt="El sastre">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/El silencio- Serie.jpg" alt="El silencio">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Fubar- Serie.jpg" alt="Fubar">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/La reina Cleopatra- Serie.jpg" alt="La reina Cleopatra">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Ultraman- Serie.jpg" alt="Ultraman">
             </div>
         </div>
 
         <h4>PROXIMOS ESTRENOS DE STREAMING - PELICULAS</h4>
-        <div class="ProximosEstrenosDeCine">
-            <div class="ActualmenteEnElCine">
+        <div class="ProximosEstrenos"> <!--Estrenos de Peliculas-->
+            <div class="Peliculas">
                 <img src="../IMAGENES/Proximos estrenos/Dia de la madre - Pelicula.jpg" alt="Dia de la madre">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
                 <img src="../IMAGENES/Proximos estrenos/El ultimo vagon - Pelicula.jpg" alt="El ultimo vagon">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Fanfic - Pelicula.jpg" alt="Fanfic">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/La madre - Pelicula.jpg" alt="La madre">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Sangre y oro - Pelicula.jpg" alt="Sangre y oro">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Victima sospechosa - Pelicula.jpg" alt="Victima sospechosa">
             </div>
         </div>
 
         <h4>PROXIMOS ESTRENOS DE CINES</h4>
-        <div class="ProximosEstrenosDeCine">
-            <div class="ActualmenteEnElCine">
+        <div class="ProximosEstrenos"> <!--Estrenos de Cines-->
+            <div class="Peliculas">
                 <img src="../IMAGENES/Proximos estrenos/Creed - Cines.jpeg" alt="Creed">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
                 <img src="../IMAGENES/Proximos estrenos/Evil dead rise - Cines.jpeg" alt="Evil dead rise">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Guardianes de la galaxia - Cines.jpeg" alt="Guardianes de la galaxia">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Misantropo - Cines.jpeg" alt="Misantropo">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Sombras de un crimen - Cines.jpeg" alt="Sombras de un crimen">
             </div>
-            <div class="ActualmenteEnElCine">
+            <div class="Peliculas">
 
                 <img src="../IMAGENES/Proximos estrenos/Scream - Cines.jpeg" alt="Scream">
             </div>
         </div>
         <br>
     </main>
-    <footer>
+    <footer> <!--Footer-->
         <div class="footer-1">
             <li><a href="#">Audios y subtítulos</a></li>
             <li><a href="#">Centro de ayuda</a></li>

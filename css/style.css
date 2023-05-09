@@ -130,27 +130,19 @@ main .plataformas-hoy-y-cine {
   background-color: black;
   flex-wrap: wrap; }
 
-.filtrar-proximos-estrenos {
+main .filtrar-proximos-estrenos {
   text-align: right; }
 
-.ProximosEstrenosDeCine {
+main .ProximosEstrenos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 20px; }
-
-.logo-cinemark {
-  width: 150px; }
-
-.link-column {
-  flex-basis: 25.6rem;
-  margin-right: 1.6rem;
-  margin-bottom: 0; }
-
-.btn-primary {
-  background-color: #272225;
-  border: #F5C518;
-  color: white; }
+  main .ProximosEstrenos .Peliculas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px; }
 
 .streaming {
   padding-left: 140px; }

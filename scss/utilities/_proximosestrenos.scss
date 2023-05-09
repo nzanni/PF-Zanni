@@ -1,27 +1,19 @@
-.filtrar-proximos-estrenos {
-    text-align: right;
-}
+main {
+    .filtrar-proximos-estrenos {
+        text-align: right;
+    }
 
+    .ProximosEstrenos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 20px;
 
-.ProximosEstrenosDeCine {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-
-.logo-cinemark {
-    width: 150px;
-}
-
-.link-column {
-    flex-basis: 25.6rem;
-    margin-right: 1.6rem;
-    margin-bottom: 0;
-}
-
-.btn-primary {
-    background-color: rgb(39, 34, 37);
-    border: #F5C518;
-    color: white;
+        .Peliculas {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 5px;
+        }
+    }
 }
