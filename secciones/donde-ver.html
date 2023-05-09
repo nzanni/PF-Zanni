@@ -15,48 +15,55 @@
         href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
-    <meta name="keywords"  content="Peliculas, Series, Plataformas, Cines, Netflix, Amazon, Hoyts, Cinemark, Tendencias, Género">
-    <meta name="description" content="En 'Ver o no ver - Donde Ver' podrás buscar la película o serie de tu interés y te decimos donde podrás encontrarla para verla, si en plataformas pagas, gratuitas o en el cine. Con Ver o no Ver, ya no vas a perder tiempo en buscar donde ver una película o serie, hace los pochoclos que nosotros te decimos donde verla">
+    <meta name="keywords"
+        content="Peliculas, Series, Plataformas, Cines, Netflix, Amazon, Hoyts, Cinemark, Tendencias, Género">
+    <meta name="description"
+        content="En 'Ver o no ver - Donde Ver' podrás buscar la película o serie de tu interés y te decimos donde podrás encontrarla para verla, si en plataformas pagas, gratuitas o en el cine. Con Ver o no Ver, ya no vas a perder tiempo en buscar donde ver una película o serie, hace los pochoclos que nosotros te decimos donde verla">
 </head>
 
 <body>
     <header> <!-- Barra de navegacion-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-              aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="../index.html"> <img src="../IMAGENES/Logo Ver o no ver.PNG"
-                alt="Logo e inicio de la pagina "></a>
-    
-              <input type="text" placeholder="Película/Serie" name="Pelicula/Serie">
-              <button type="button" class="btn btn-outline-warning">Buscar</button>
-            </form>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <div class="d-flex justify-content-evenly">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../secciones/donde-ver.html">DONDE VER</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../secciones/proximos-estrenos.html">PRÓXIMOS
-                      ESTRENOS</a></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../secciones/cines.html">CINES</a></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../secciones/streaming.html">STREAMING</a></a>
-                  </li>
-                </ul>
-              </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"> <img src="../IMAGENES/Logo Ver o no ver.PNG"
+                        alt="Logo e inicio de la pagina "></a>
+
+                <input type="text" placeholder="Película/Serie" name="Pelicula/Serie">
+                <button type="button" class="btn btn-outline-warning">Buscar</button>
+                </form>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <div class="d-flex justify-content-evenly">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../secciones/donde-ver.html">DONDE
+                                    VER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../secciones/proximos-estrenos.html">PRÓXIMOS
+                                    ESTRENOS</a></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../secciones/cines.html">CINES</a></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../secciones/streaming.html">STREAMING</a></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </nav>
-      </header>
-    <main>
-        <div class="filtro-donde-ver">
+    </header>
+    <main> <!--Cuerpo de la página-->
+        <div class="filtro-donde-ver"> <!--Filtro de la pagina-->
             <span>
                 <img class="iconofiltro" src="../IMAGENES/Icono filtro.png" alt="Icono filtro">
                 <p class="filtrar-donde-ver">Filtrar</p>
@@ -107,9 +114,9 @@
                 </select>
             </form>
         </div>
-        <h2 class="plataformas-hoy-y-cine">Las plataformas de streaming de hoy</h2>
+        <h2 class="plataformas-hoy-y-cine">Las plataformas de streaming de hoy</h2> <!--Tendencias con puestos-->
         <div class="padre-donde-ver">
-            <div class="Puestos-Streaming">
+            <div class="Puestos-Streaming"> <!--Puestos Netflix-->
                 <a href="https://www.netflix.com/" target="_blank"><img class="Netflix-Donde-ver"
                         src="../IMAGENES/Logos Plataformas y Cines/Logo Netflix.png" alt="Netflix"></a>
 
@@ -121,7 +128,7 @@
                     </li>
                 </ol>
             </div>
-            <div class="Puestos-Streaming">
+            <div class="Puestos-Streaming"> <!--Puestos Amazon Prime-->
                 <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root" target="_blank"><img
                         class="Amazon-Donde-ver" src="../IMAGENES/Logos Plataformas y Cines/Logo Amazon Prime.png"
                         alt="Amazon Prime"></a>
@@ -134,7 +141,7 @@
                     </li>
                 </ol>
             </div>
-            <div class="Puestos-Streaming">
+            <div class="Puestos-Streaming"> <!--Puestos Disney-->
                 <a href="https://www.disneyplus.com/" target="_blank"><img class="Disney+-Donde-ver"
                         src="../IMAGENES/Logos Plataformas y Cines/Logo Disney+.png" alt="Disney+"></a>
                 <ol>
@@ -146,16 +153,17 @@
                 </ol>
             </div>
         </div>
-        <h2 class="plataformas-hoy-y-cine">Cines Argentinos</h2>
+        <h2 class="plataformas-hoy-y-cine">Cines Argentinos</h2> <!--Tendencias Cines-->
         <a href="https://www.cinemarkhoyts.com.ar/" target="_blank"><img class="Cinemark y Hoyts"
                 src="../IMAGENES/Logos Plataformas y Cines/Logo cinemark y hoyts.png" alt="Cinemark y Hoyts"></a>
 
-        <div class="ActualmenteEnElCine">
-
+        <div class="ActualmenteEnElCine"> <!--Flex de imagenes de Cines-->
             <div class="ActualmenteEnElCine">
+                
                 <img src="../IMAGENES/Donde Ver/Creed - Cines.jpeg" alt="Creed">
             </div>
             <div class="ActualmenteEnElCine">
+
                 <img src="../IMAGENES/Donde Ver/Evil dead rise - Cines.jpeg" alt="Evil dead rise">
             </div>
             <div class="ActualmenteEnElCine">
@@ -171,14 +179,14 @@
                 <img src="../IMAGENES/Donde Ver/Misantropo - Cines.jpeg" alt="Misantropo">
             </div>
             <div class="ActualmenteEnElCine">
-
+                
                 <img src="../IMAGENES/Donde Ver/Scream - Cines.jpeg" alt="Scream">
             </div>
         </div>
         <br>
     </main>
 
-    <footer>
+    <footer><!--Footer-->
         <div class="footer-1">
             <li><a href="#">Audios y subtítulos</a></li>
             <li><a href="#">Centro de ayuda</a></li>
