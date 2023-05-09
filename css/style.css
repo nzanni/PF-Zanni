@@ -126,12 +126,13 @@ main .ProximosEstrenos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 5px; }
+
+.estilo-proximos-estrenos, main__Peliculas, main__Series {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 20px; }
-  main .ProximosEstrenos .Peliculas {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 5px; }
 
 main .streaming {
   padding-left: 140px; }

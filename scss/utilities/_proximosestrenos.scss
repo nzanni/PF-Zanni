@@ -7,13 +7,22 @@ main {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 20px;
-
-        .Peliculas {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin: 5px;
-        }
+        margin: 5px;
     }
+
+    &__Peliculas {
+        @extend .estilo-proximos-estrenos;
+    }
+
+    &__Series {
+        @extend .estilo-proximos-estrenos;
+    }
+}
+
+.estilo-proximos-estrenos {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
 }
