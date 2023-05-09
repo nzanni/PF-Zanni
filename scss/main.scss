@@ -1,21 +1,28 @@
-/*PALETA DE COLORES
-FONDO BODY: black
-FONDO LETRAS: #F5C518
-FONDO FOOTER: black
-*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+/*PALETA DE COLORES - VARIABLES*/
+$FondoNav: black;
+$FondoBody: black;
+$Letras: #F5C518;
+$FondoFooter: #F5C518;
+$LetrasFooter: black;
+$Tipografia:'Open Sans', sans-serif;
 
 /*BARRA NAVEGACION*/
 header {
 
     .navbar-nav .nav-link.active,
     .navbar-nav {
-        color: #F5C518;
-        background-color: black;
+        color: $Letras;
+        background-color: $FondoNav;
         padding: auto;
+
+        &:hover {
+            color: white;
+        }
     }
 
     .navbar {
-        background-color: black !important;
+        background-color: $FondoNav !important;
     }
 
     .navbar-toggler-icon {
@@ -36,13 +43,19 @@ header {
 
 
 main {
-    background-color: black;
-    color: #F5C518;
+    background-color: $FondoBody;
+    color: $Letras;
+
+    h4 {
+        font-family: $Tipografia;
+        font-size: 20px;
+        padding-left: 15px;
+    }
 }
 
 footer {
-    background-color: #F5C518;
-    color: black;
+    background-color: $FondoFooter;
+    color: $LetrasFooter;
     display: flex;
 
     .footer-1 {
@@ -73,18 +86,15 @@ footer {
         a {
             text-decoration: none;
             color: black;
-            font-family: 'Edu NSW ACT Foundation', cursive;
-            font-family: 'Roboto', sans-serif;
+            font-family: $Tipografia;
+
+            &:hover {
+                color: white;
+            }
         }
     }
 }
 
-
-h4 {
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
 
 /*INDEX*/
 .cartelera {
@@ -92,14 +102,14 @@ h4 {
 }
 
 .mas-vistos-y-clasicos {
-    color: #F5C518;
+    color: $FondoBody;
     font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $Tipografia;
     margin-left: 40px;
 }
 
 .card {
-    background-color: #F5C518;
+    background-color: $Letras;
     color: black;
 }
 
@@ -118,7 +128,7 @@ h4 {
 }
 
 .cartelera-negra {
-    background-color: black;
+    background-color: $FondoBody;
     width: 100%;
 }
 
@@ -150,7 +160,7 @@ h4 {
 .nombres-peliculas {
     color: black;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $Tipografia;
     font-weight: bold;
 }
 
@@ -184,7 +194,7 @@ h4 {
 
 .Puestos-Streaming {
     font-size: 20px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: $Tipografia;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -197,7 +207,7 @@ h4 {
 
 .plataformas-hoy-y-cine {
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $Tipografia;
     margin: 20px;
 }
 
@@ -233,7 +243,7 @@ h4 {
 
 .nombre-ubicaciones {
     margin-left: 50px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: $Tipografia;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }

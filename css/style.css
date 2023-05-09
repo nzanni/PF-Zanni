@@ -1,15 +1,15 @@
 @charset "UTF-8";
-/*PALETA DE COLORES
-FONDO BODY: black
-FONDO LETRAS: #F5C518
-FONDO FOOTER: black
-*/
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+/*PALETA DE COLORES - VARIABLES*/
 /*BARRA NAVEGACION*/
 header .navbar-nav .nav-link.active,
 header .navbar-nav {
   color: #F5C518;
   background-color: black;
   padding: auto; }
+  header .navbar-nav .nav-link.active:hover,
+  header .navbar-nav:hover {
+    color: white; }
 
 header .navbar {
   background-color: black !important; }
@@ -28,6 +28,10 @@ header #navbarTogglerDemo03 {
 main {
   background-color: black;
   color: #F5C518; }
+  main h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding-left: 15px; }
 
 footer {
   background-color: #F5C518;
@@ -52,22 +56,18 @@ footer {
     footer li a {
       text-decoration: none;
       color: black;
-      font-family: 'Edu NSW ACT Foundation', cursive;
-      font-family: 'Roboto', sans-serif; }
-
-h4 {
-  font-family: 'Edu NSW ACT Foundation', cursive;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px; }
+      font-family: "Open Sans", sans-serif; }
+      footer li a:hover {
+        color: white; }
 
 /*INDEX*/
 .cartelera {
   text-align: center; }
 
 .mas-vistos-y-clasicos {
-  color: #F5C518;
+  color: black;
   font-size: 22px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-left: 40px; }
 
 .card {
@@ -111,7 +111,7 @@ h4 {
 .nombres-peliculas {
   color: black;
   font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold; }
 
 #filtrar {
@@ -138,7 +138,7 @@ h4 {
 
 .Puestos-Streaming {
   font-size: 20px;
-  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-family: "Open Sans", sans-serif;
   font-family: 'Roboto', sans-serif; }
 
 /*PROXIMOS ESTRENOS*/
@@ -147,7 +147,7 @@ h4 {
 
 .plataformas-hoy-y-cine {
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 20px; }
 
 .ProximosEstrenosDeCine {
@@ -176,7 +176,7 @@ h4 {
 
 .nombre-ubicaciones {
   margin-left: 50px;
-  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-family: "Open Sans", sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 15px; }
 
