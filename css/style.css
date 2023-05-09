@@ -144,11 +144,8 @@ main .ProximosEstrenos {
     flex-wrap: wrap;
     margin: 5px; }
 
-.streaming {
+main .streaming {
   padding-left: 140px; }
-
-.btn {
-  background-color: black; }
 
 main {
   background-color: black;
@@ -157,3 +154,5 @@ main {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     padding-left: 15px; }
+  main .btn {
+    background-color: black; }
