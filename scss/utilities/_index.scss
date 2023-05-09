@@ -1,58 +1,43 @@
-.cartelera {
-    text-align: center;
-}
+main {
+    .mas-vistos-y-clasicos {
+        color: $FondoBody;
+        font-size: 22px;
+        font-family: $Tipografia;
+        margin-left: 40px;
+    }
 
-.mas-vistos-y-clasicos {
-    color: $FondoBody;
-    font-size: 22px;
-    font-family: $Tipografia;
-    margin-left: 40px;
-}
+    .padre {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        flex-wrap: wrap;
 
-.card {
-    background-color: $Letras;
-    color: black;
-}
+        .card {
+            background-color: $Letras;
+            color: black;
+        }
+    }
 
-.btn {
-    color: #F5C518;
-}
+    .cartelera-negra {
+        background-color: $FondoBody;
+        width: 100%;
 
-.data-bs-toggle {
-    background-color: #F5C518;
-}
+        .ancho-maximo {
+            display: flex;
+            text-align: center;
 
-.ancho-maximo {
-    display: flex;
-    text-align: center;
+        }
+    }
 
-}
+    .modal-content {
+        background-color: #F5C518;
+        color: black;
+        align-items: center;
+        width: 120%
+    }
 
-.cartelera-negra {
-    background-color: $FondoBody;
-    width: 100%;
-}
-
-.modal-content {
-    background-color: #F5C518;
-    color: black;
-    align-items: center;
-    width: 120%
-}
-
-.modal-fade {
-    justify-content: center;
-    align-items: center;
-}
-
-.collapse {
-    justify-content: right;
-}
-
-.padre {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    flex-wrap: wrap;
-
+    .modal-fade {
+        justify-content: center;
+        align-items: center;
+    }
 }

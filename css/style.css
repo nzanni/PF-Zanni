@@ -21,6 +21,9 @@ header .nav-link {
 header #navbarTogglerDemo03 {
   padding-right: 10px; }
 
+header .collapse {
+  justify-content: right; }
+
 footer {
   background-color: #F5C518;
   color: black;
@@ -84,51 +87,37 @@ main .plataformas-hoy-y-cine {
   font-family: "Open Sans", sans-serif;
   margin: 20px; }
 
-.cartelera {
-  text-align: center; }
-
-.mas-vistos-y-clasicos {
+main .mas-vistos-y-clasicos {
   color: black;
   font-size: 22px;
   font-family: "Open Sans", sans-serif;
   margin-left: 40px; }
 
-.card {
-  background-color: #F5C518;
-  color: black; }
-
-.btn {
-  color: #F5C518; }
-
-.data-bs-toggle {
-  background-color: #F5C518; }
-
-.ancho-maximo {
+main .padre {
   display: flex;
-  text-align: center; }
+  justify-content: center;
+  background-color: black;
+  flex-wrap: wrap; }
+  main .padre .card {
+    background-color: #F5C518;
+    color: black; }
 
-.cartelera-negra {
+main .cartelera-negra {
   background-color: black;
   width: 100%; }
+  main .cartelera-negra .ancho-maximo {
+    display: flex;
+    text-align: center; }
 
-.modal-content {
+main .modal-content {
   background-color: #F5C518;
   color: black;
   align-items: center;
   width: 120%; }
 
-.modal-fade {
+main .modal-fade {
   justify-content: center;
   align-items: center; }
-
-.collapse {
-  justify-content: right; }
-
-.padre {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  flex-wrap: wrap; }
 
 main .filtrar-proximos-estrenos {
   text-align: right; }
