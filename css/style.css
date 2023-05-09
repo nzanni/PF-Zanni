@@ -1,7 +1,5 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
 /*PALETA DE COLORES - VARIABLES*/
-/*BARRA NAVEGACION*/
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
 header .navbar-nav .nav-link.active,
 header .navbar-nav {
   color: #F5C518;
@@ -23,15 +21,6 @@ header .nav-link {
 
 header #navbarTogglerDemo03 {
   padding-right: 10px; }
-
-/*DISEÑO GENERAL*/
-main {
-  background-color: black;
-  color: #F5C518; }
-  main h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    padding-left: 15px; }
 
 footer {
   background-color: #F5C518;
@@ -60,129 +49,10 @@ footer {
       footer li a:hover {
         color: white; }
 
-/*INDEX*/
-.cartelera {
-  text-align: center; }
-
-.mas-vistos-y-clasicos {
-  color: black;
-  font-size: 22px;
-  font-family: "Open Sans", sans-serif;
-  margin-left: 40px; }
-
-.card {
-  background-color: #F5C518;
-  color: black; }
-
-.btn {
+main {
+  background-color: black;
   color: #F5C518; }
-
-.data-bs-toggle {
-  background-color: #F5C518; }
-
-.ancho-maximo {
-  display: flex;
-  text-align: center; }
-
-.cartelera-negra {
-  background-color: black;
-  width: 100%; }
-
-.modal-content {
-  background-color: #F5C518;
-  color: black;
-  align-items: center;
-  width: 120%; }
-
-.modal-fade {
-  justify-content: center;
-  align-items: center; }
-
-.collapse {
-  justify-content: right; }
-
-.padre {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  flex-wrap: wrap; }
-
-/*DONDE VER*/
-.nombres-peliculas {
-  color: black;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold; }
-
-#filtrar {
-  background-color: black; }
-
-.filtro-donde-ver {
-  text-align: right; }
-
-.iconofiltro {
-  width: 15px; }
-
-.ActualmenteEnElCine {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 5px; }
-
-.padre-donde-ver {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: black;
-  flex-wrap: wrap;
-  align-items: center; }
-
-.Puestos-Streaming {
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-family: 'Roboto', sans-serif; }
-
-/*PROXIMOS ESTRENOS*/
-.filtrar-proximos-estrenos {
-  text-align: right; }
-
-.plataformas-hoy-y-cine {
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  margin: 20px; }
-
-.ProximosEstrenosDeCine {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 20px; }
-
-.logo-cinemark {
-  width: 150px; }
-
-.link-column {
-  flex-basis: 25.6rem;
-  margin-right: 1.6rem;
-  margin-bottom: 0; }
-
-.btn-primary {
-  background-color: #272225;
-  border: #F5C518;
-  color: white; }
-
-/*CINES*/
-.mapas-cines {
-  display: flex;
-  justify-content: center; }
-
-.nombre-ubicaciones {
-  margin-left: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px; }
-
-/*STREAMING*/
-.streaming {
-  padding-left: 140px; }
-
-.btn {
-  background-color: black; }
+  main h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding-left: 15px; }

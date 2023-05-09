@@ -1,0 +1,41 @@
+.nombres-peliculas {
+    color: black;
+    font-size: 20px;
+    font-family: $Tipografia;
+    font-weight: bold;
+}
+
+#filtrar {
+    background-color: black;
+}
+
+.filtro-donde-ver {
+    text-align: right;
+}
+
+.iconofiltro {
+    width: 15px;
+}
+
+.ActualmenteEnElCine {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+
+.padre-donde-ver {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Puestos-Streaming {
+    font-size: 20px;
+    font-family: $Tipografia;
+    font-family: 'Roboto', sans-serif;
+}
+
