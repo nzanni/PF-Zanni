@@ -88,7 +88,7 @@ main .plataformas-hoy-y-cine {
   margin: 20px; }
 
 main .mas-vistos-y-clasicos {
-  color: black;
+  color: #F5C518;
   font-size: 22px;
   font-family: "Open Sans", sans-serif;
   margin-left: 40px; }
@@ -100,22 +100,29 @@ main .padre {
   flex-wrap: wrap; }
   main .padre .card {
     background-color: #F5C518;
-    color: black; }
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px; }
+    main .padre .card .ver-ahora {
+      text-align: center;
+      font-size: 25px;
+      font-family: "Open Sans", sans-serif; }
 
-main .cartelera-negra {
+.cartelera-negra {
   background-color: black;
   width: 100%; }
-  main .cartelera-negra .ancho-maximo {
+  .cartelera-negra .ancho-maximo {
     display: flex;
     text-align: center; }
 
-main .modal-content {
+.modal-content {
   background-color: #F5C518;
   color: black;
   align-items: center;
-  width: 120%; }
+  width: 120%;
+  overflow: hidden; }
 
-main .modal-fade {
+.modal-fade {
   justify-content: center;
   align-items: center; }
 

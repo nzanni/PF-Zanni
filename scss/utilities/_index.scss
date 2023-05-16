@@ -1,6 +1,6 @@
 main {
     .mas-vistos-y-clasicos {
-        color: $FondoBody;
+        color: $Letras;
         font-size: 22px;
         font-family: $Tipografia;
         margin-left: 40px;
@@ -12,32 +12,43 @@ main {
         background-color: black;
         flex-wrap: wrap;
 
+
         .card {
             background-color: $Letras;
             color: black;
+            font-family: $Tipografia;
+            font-size: 10px;
+
+            .ver-ahora {
+                text-align: center;
+                font-size: 25px;
+                font-family: $Tipografia;
+            }
         }
     }
+}
 
-    .cartelera-negra {
-        background-color: $FondoBody;
-        width: 100%;
+.cartelera-negra {
+    background-color: $FondoBody;
+    width: 100%;
 
-        .ancho-maximo {
-            display: flex;
-            text-align: center;
 
-        }
+    .ancho-maximo {
+        display: flex;
+        text-align: center;
     }
+}
 
-    .modal-content {
-        background-color: #F5C518;
-        color: black;
-        align-items: center;
-        width: 120%
-    }
+.modal-content {
+    background-color: #F5C518;
+    color: black;
+    align-items: center;
+    width: 120%;
+    overflow: hidden;
+}
 
-    .modal-fade {
-        justify-content: center;
-        align-items: center;
-    }
+.modal-fade {
+    justify-content: center;
+    align-items: center;
+
 }
