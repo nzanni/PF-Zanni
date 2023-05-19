@@ -64,55 +64,52 @@
     </header>
     <main> <!--Cuerpo de la página-->
         <div class="filtro-donde-ver"> <!--Filtro de la pagina-->
-            <span>
-                <img class="iconofiltro" src="../IMAGENES/Icono filtro.png" alt="Icono filtro">
-                <p class="filtrar-donde-ver">Filtrar</p>
-            </span>
-
-            <form action="#" method="get" class="filtrar-donde-ver">
-                <select name="Género">
-                    <option value="Género">Género</option>
-                    <option value="Acción y Aventura">Acción</option>
-                    <option value="Animación">Aventura</option>
-                    <option value="Comedia">Comedia</option>
-                    <option value="Documental">Acción</option>
-                    <option value="Fantasía">Aventura</option>
-                    <option value="Terror">Comedia</option>
-                    <option value="Drama">Acción</option>
-                    <option value="Crimen">Aventura</option>
-                    <option value="Reality TV">Comedia</option>
+            <form action="#" method="get" class="filtro-donde-ver">
+                <select name="Género" class="dropdown-item">
+                    <option value="Género" class="dropdown-item">Género</option>
+                    <option value="Acción y Aventura" class="dropdown-item">Acción</option>
+                    <option value="Animación" class="dropdown-item">Aventura</option>
+                    <option value="Comedia" class="dropdown-item">Comedia</option>
+                    <option value="Documental" class="dropdown-item">Acción</option>
+                    <option value="Fantasía" class="dropdown-item">Aventura</option>
+                    <option value="Terror" class="dropdown-item">Comedia</option>
+                    <option value="Drama" class="dropdown-item">Acción</option>
+                    <option value="Crimen" class="dropdown-item">Aventura</option>
+                    <option value="Reality TV" class="dropdown-item">Comedia</option>
                 </select>
-                <select name="Modo">
-                    <option value="Modo">Modo</option>
-                    <option value="Suscripción">Suscripción</option>
-                    <option value="Comprar">Comprar</option>
-                    <option value="Gratis">Gratis</option>
+                <select name="Modo" class="dropdown-item">
+                    <option value="Modo" class="dropdown-item">Modo</option>
+                    <option value="Suscripción" class="dropdown-item">Suscripción</option>
+                    <option value="Comprar" class="dropdown-item">Comprar</option>
+                    <option value="Gratis" class="dropdown-item">Gratis</option>
                 </select>
-                <select name="Calificación">
-                    <option value="Calificación">Calificación</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
+                <select name="Calificación" class="dropdown-item">
+                    <option value="Calificación" class="dropdown-item">Calificación</option>
+                    <option value="1" class="dropdown-item">1</option>
+                    <option value="2" class="dropdown-item">2</option>
+                    <option value="3" class="dropdown-item">3</option>
+                    <option value="4" class="dropdown-item">4</option>
+                    <option value="5" class="dropdown-item">5</option>
+                    <option value="6" class="dropdown-item">6</option>
+                    <option value="7" class="dropdown-item">7</option>
+                    <option value="8" class="dropdown-item">8</option>
+                    <option value="9" class="dropdown-item">9</option>
+                    <option value="10" class="dropdown-item">10</option>
                 </select>
-                <select name="Edad">
-                    <option value="Edad">Edad</option>
-                    <option value="ATP">ATP</option>
-                    <option value="Mayores 13 años">Mayores 13 años</option>
+                <select name="Edad" class="dropdown-item">
+                    <option value="Edad" class="dropdown-item">Edad</option>
+                    <option value="ATP" class="dropdown-item">ATP</option>
+                    <option value="Mayores 13 años" class="dropdown-item">Mayores 13 años</option>
                 </select>
-                <select name="Calidad">
-                    <option value="Calidad">Calidad</option>
-                    <option value="SD">SD</option>
-                    <option value="HD">HD</option>
-                    <option value="4K">4K</option>
+                <select name="Calidad" class="dropdown-item" filtro-donde-ver>
+                    <option value="Calidad" class="dropdown-item">Calidad</option>
+                    <option value="SD" class="dropdown-item">SD</option>
+                    <option value="HD" class="dropdown-item">HD</option>
+                    <option value="4K" class="dropdown-item">4K</option>
                 </select>
             </form>
+                <a href="#"><img src="../IMAGENES/Icono filtro.png" alt="Filtro">Filtrar</a>
+
         </div>
         <h2 class="plataformas-hoy-y-cine">Las plataformas de streaming de hoy</h2> <!--Tendencias con puestos-->
         <div class="padre-donde-ver">

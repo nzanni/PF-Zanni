@@ -1,9 +1,23 @@
 main {
     .filtro-donde-ver {
-        text-align: right;
+        display: flex;
+        justify-content: right;
+        text-align: center;
+        margin-right: 25px;
+    }
 
-        .iconofiltro {
-            width: 15px;
+    .dropdown-item {
+        color: $Letras;
+        background-color: $FondoBody;
+    }
+
+    a {
+        text-decoration: none;
+        color: $Letras;
+        font-family: $Tipografia;
+
+        &:hover {
+            color: white;
         }
     }
 

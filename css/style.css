@@ -61,9 +61,21 @@ main .nombre-ubicaciones {
     justify-content: center; }
 
 main .filtro-donde-ver {
-  text-align: right; }
-  main .filtro-donde-ver .iconofiltro {
-    width: 15px; }
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  margin-right: 25px; }
+
+main .dropdown-item {
+  color: #F5C518;
+  background-color: black; }
+
+main a {
+  text-decoration: none;
+  color: #F5C518;
+  font-family: "Open Sans", sans-serif; }
+  main a:hover {
+    color: white; }
 
 main .ActualmenteEnElCine {
   display: flex;
@@ -102,11 +114,12 @@ main .padre {
     background-color: #F5C518;
     color: black;
     font-family: "Open Sans", sans-serif;
-    font-size: 10px; }
+    font-size: 15px; }
     main .padre .card .ver-ahora {
       text-align: center;
-      font-size: 25px;
-      font-family: "Open Sans", sans-serif; }
+      font-size: 17px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold; }
 
 .cartelera-negra {
   background-color: black;

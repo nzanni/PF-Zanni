@@ -17,12 +17,13 @@ main {
             background-color: $Letras;
             color: black;
             font-family: $Tipografia;
-            font-size: 10px;
+            font-size: 15px;
 
             .ver-ahora {
                 text-align: center;
-                font-size: 25px;
+                font-size: 17px;
                 font-family: $Tipografia;
+                font-weight: bold;
             }
         }
     }
