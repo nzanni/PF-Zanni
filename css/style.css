@@ -64,11 +64,12 @@ main .filtro-donde-ver {
   display: flex;
   justify-content: right;
   text-align: center;
-  margin-right: 25px; }
+  margin-right: 2%; }
 
 main .dropdown-item {
   color: #F5C518;
-  background-color: black; }
+  background-color: black;
+  width: auto; }
 
 main a {
   text-decoration: none;
@@ -81,7 +82,7 @@ main .ActualmenteEnElCine {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 5px; }
+  margin: 10px; }
 
 main .padre-donde-ver {
   display: flex;
@@ -97,7 +98,7 @@ main .padre-donde-ver {
 main .plataformas-hoy-y-cine {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
-  margin: 20px; }
+  margin: 2%; }
 
 main .mas-vistos-y-clasicos {
   color: #F5C518;
@@ -139,20 +140,23 @@ main .padre {
   justify-content: center;
   align-items: center; }
 
-main .filtrar-proximos-estrenos {
-  text-align: right; }
+main .filtro-proximos-estrenos {
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  margin-right: 2%; }
 
 main .ProximosEstrenos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 5px; }
+  margin: 10px; }
 
 .estilo-proximos-estrenos, main__Peliculas, main__Series {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px; }
+  margin: 1%; }
 
 main .streaming {
   padding-left: 140px; }

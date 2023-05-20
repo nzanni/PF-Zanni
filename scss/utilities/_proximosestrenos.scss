@@ -1,13 +1,16 @@
 main {
-    .filtrar-proximos-estrenos {
-        text-align: right;
+    .filtro-proximos-estrenos {
+        display: flex;
+        justify-content: right;
+        text-align: center;
+        margin-right: 2%;
     }
 
     .ProximosEstrenos {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 5px;
+        margin: 10px;
     }
 
     &__Peliculas {
@@ -24,5 +27,5 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 1%;
 }

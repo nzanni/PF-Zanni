@@ -64,14 +64,16 @@
         </nav>
     </header>
     <main> <!-- Página-->
-        <div class="filtrar-proximos-estrenos">Filtrar</div>
-        <form action="#" method="get" class="filtrar-proximos-estrenos"> <!--Filtro-->
-            <select name="Tiempo">
-                <option value="Semanal">Semanal</option>
-                <option value="Mensual">Mensual</option>
-                <option value="Anual">Anual</option>
-            </select>
-        </form>
+        <div class="filtro-proximos-estrenos"> <!--Filtro de la pagina-->
+            <form action="#" method="get" class="dropdown-item">
+                <select name="Tiempo" class="dropdown-item">
+                    <option value="Semanal" class="dropdown-item">Semanal</option>
+                    <option value="Mensual" class="dropdown-item">Mensual</option>
+                    <option value="Anual" class="dropdown-item">Anual</option>
+                </select>
+            </form>
+                <a href="#"><img src="../IMAGENES/Icono filtro.png" alt="Filtro">Filtrar</a>
+        </div>
         <h4>PROXIMOS ESTRENOS DE STREAMING - SERIES</h4>
         <div class="ProximosEstrenos"> <!--Estrenos de Series-->
             <div class="ProximosEstrenos__Series">
