@@ -22,12 +22,6 @@ main {
         }
     }
 
-    .ActualmenteEnElCine {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin: 10px;
-    }
 
     .padre-donde-ver {
         display: flex;
@@ -48,4 +42,32 @@ main {
         font-family: $Tipografia;
         margin: 2%;
     }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    #pelicula {
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        width: 90%;
+        margin: auto;
+        grid-gap: 30px;
+
+    }
+
+    #pelicula img {
+        width: 100%;
+        transition: 300ms;
+        position: relative
+    }
+
+    #pelicula img:hover {
+        transform: scale(1.15);
+    }
+
+
+
 }
