@@ -4,25 +4,34 @@ main {
         justify-content: right;
         text-align: center;
         margin-right: 2%;
-    }
 
-    .dropdown-item {
-        color: $Letras;
-        background-color: $FondoBody;
-        width: auto;
-    }
+        .dropdown-item {
+            color: $Letras;
+            background-color: $FondoBody;
+            width: auto;
+        }
 
-    a {
-        text-decoration: none;
-        color: $Letras;
-        font-family: $Tipografia;
+        a {
+            text-decoration: none;
+            color: $Letras;
+            font-family: $Tipografia;
 
-        &:hover {
-            color: white;
+            &:hover {
+                color: white;
+            }
         }
     }
 
+    .plataformas-hoy {
+        font-size: 20px;
+        font-family: $Tipografia;
+        margin: 2%;
 
+        &__cine {
+            @extend .plataformas-hoy;
+        }
+
+    }
 
     .padre-donde-ver {
         display: flex;
@@ -31,39 +40,34 @@ main {
         flex-wrap: wrap;
         align-items: center;
 
-        .Puestos-Streaming {
+        .puestos-Streaming {
             font-size: 20px;
             font-family: $Tipografia;
             font-family: 'Roboto', sans-serif;
         }
     }
 
-    .plataformas-hoy-y-cine {
-        font-size: 20px;
-        font-family: $Tipografia;
-        margin: 2%;
-    }
-
     .proximos-estrenos {
         display: flex;
         justify-content: center;
-    }
 
-    #pelicula-proximos-estrenos {
-        width: 100%;
-        margin: 1%;
-    }
 
-    #pelicula-proximos-estrenos > img {
-        margin: 1%;
-    }
+        #pelicula-proximos-estrenos {
+            width: 100%;
+            margin: 1%;
 
-    .animacion img {
-       transition: all 300ms;
-       position: relative;
-    }
+            img {
+                margin: 1%;
 
-    .animacion img:hover {
-        transform: scale(1.05);
+                .animacion {
+                    transition: all 300ms;
+                    position: relative;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
     }
 }

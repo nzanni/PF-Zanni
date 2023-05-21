@@ -65,18 +65,21 @@ main .filtro-donde-ver {
   justify-content: right;
   text-align: center;
   margin-right: 2%; }
+  main .filtro-donde-ver .dropdown-item {
+    color: #F5C518;
+    background-color: black;
+    width: auto; }
+  main .filtro-donde-ver a {
+    text-decoration: none;
+    color: #F5C518;
+    font-family: "Open Sans", sans-serif; }
+    main .filtro-donde-ver a:hover {
+      color: white; }
 
-main .dropdown-item {
-  color: #F5C518;
-  background-color: black;
-  width: auto; }
-
-main a {
-  text-decoration: none;
-  color: #F5C518;
-  font-family: "Open Sans", sans-serif; }
-  main a:hover {
-    color: white; }
+main .plataformas-hoy, main .plataformas-hoy__cine {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin: 2%; }
 
 main .padre-donde-ver {
   display: flex;
@@ -84,33 +87,24 @@ main .padre-donde-ver {
   background-color: black;
   flex-wrap: wrap;
   align-items: center; }
-  main .padre-donde-ver .Puestos-Streaming {
+  main .padre-donde-ver .puestos-Streaming {
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-family: 'Roboto', sans-serif; }
 
-main .plataformas-hoy-y-cine {
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  margin: 2%; }
-
 main .proximos-estrenos {
   display: flex;
   justify-content: center; }
-
-main #pelicula-proximos-estrenos {
-  width: 100%;
-  margin: 1%; }
-
-main #pelicula-proximos-estrenos > img {
-  margin: 1%; }
-
-main .animacion img {
-  transition: all 300ms;
-  position: relative; }
-
-main .animacion img:hover {
-  transform: scale(1.05); }
+  main .proximos-estrenos #pelicula-proximos-estrenos {
+    width: 100%;
+    margin: 1%; }
+    main .proximos-estrenos #pelicula-proximos-estrenos img {
+      margin: 1%; }
+      main .proximos-estrenos #pelicula-proximos-estrenos img .animacion {
+        transition: all 300ms;
+        position: relative; }
+        main .proximos-estrenos #pelicula-proximos-estrenos img .animacion:hover {
+          transform: scale(1.05); }
 
 main .cartelera-negra {
   background-color: black;
