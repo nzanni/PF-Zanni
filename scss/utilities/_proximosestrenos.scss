@@ -10,22 +10,31 @@ main {
         display: flex;
         justify-content: center;
     }
-
-    #pelicula-proximos-estrenos {
+    .animacion {
+        transition: all 300ms;
+        position: relative;
+     }
+ 
+     .animacion:hover {
+         transform: scale(1.05);
+     }
+ }
+    .pelicula-proximos-estrenos {
         width: 100%;
         margin: 1%;
-    }
+        .pelicula-proximos-estrenos > img {
+            margin: 1%;
+        }
+        &__peliculas {
+            @extend .pelicula-proximos-estrenos ;
+            @extend .pelicula-proximos-estrenos ;
+            @extend .animacion;
+        }
+    
 
-    #pelicula-proximos-estrenos > img {
-        margin: 1%;
-    }
 
-    .animacion img {
-       transition: all 300ms;
-       position: relative;
-    }
 
-    .animacion img:hover {
-        transform: scale(1.05);
-    }
+
+
+
 }

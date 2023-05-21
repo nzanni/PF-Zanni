@@ -105,11 +105,11 @@ main #pelicula-proximos-estrenos {
 main #pelicula-proximos-estrenos > img {
   margin: 1%; }
 
-main .animacion img {
+main .animacion img, main .pelicula-proximos-estrenos__peliculas img {
   transition: all 300ms;
   position: relative; }
 
-main .animacion img:hover {
+main .animacion img:hover, main .pelicula-proximos-estrenos__peliculas img:hover {
   transform: scale(1.05); }
 
 main .mas-vistos-y-clasicos {
@@ -162,22 +162,29 @@ main .proximos-estrenos {
   display: flex;
   justify-content: center; }
 
-main #pelicula-proximos-estrenos {
-  width: 100%;
-  margin: 1%; }
-
-main #pelicula-proximos-estrenos > img {
-  margin: 1%; }
-
-main .animacion img {
+main .animacion, main .pelicula-proximos-estrenos__peliculas {
   transition: all 300ms;
   position: relative; }
 
-main .animacion img:hover {
+main .animacion:hover, main .pelicula-proximos-estrenos__peliculas:hover {
   transform: scale(1.05); }
 
+.pelicula-proximos-estrenos, .pelicula-proximos-estrenos__peliculas {
+  width: 100%;
+  margin: 1%; }
+  .pelicula-proximos-estrenos .pelicula-proximos-estrenos > img, .pelicula-proximos-estrenos__peliculas .pelicula-proximos-estrenos > img, .pelicula-proximos-estrenos .pelicula-proximos-estrenos__peliculas > img, .pelicula-proximos-estrenos__peliculas .pelicula-proximos-estrenos__peliculas > img {
+    margin: 1%; }
+
 main .streaming {
-  padding-left: 140px; }
+  color: #F5C518; }
+
+main .suscripciones-pagas {
+  display: flex;
+  align-items: center;
+  width: 100%; }
+  main .suscripciones-pagas .plataformas-gratuitas {
+    display: flex;
+    align-items: center; }
 
 main {
   background-color: black;

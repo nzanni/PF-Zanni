@@ -1,6 +1,14 @@
 main {
     .streaming {
-        padding-left: 140px;
+        color: $Letras;
     }
-
+    .suscripciones-pagas {
+   display: flex;
+align-items: center;
+width: 100%;
+.plataformas-gratuitas{
+    display: flex;
+    align-items: center;
+}
+}
 }
