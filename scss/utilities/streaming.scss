@@ -2,13 +2,15 @@ main {
     .streaming {
         color: $Letras;
     }
+
     .suscripciones-pagas {
-   display: flex;
-align-items: center;
-width: 100%;
-.plataformas-gratuitas{
-    display: flex;
-    align-items: center;
-}
-}
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        .plataformas-gratuitas {
+            display: flex;
+            align-items: center;
+        }
+    }
 }
