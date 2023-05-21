@@ -6,26 +6,26 @@ main {
         margin-right: 2%;
     }
 
-    .ProximosEstrenos {
+    .proximos-estrenos {
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin: 10px;
+        justify-content: center;
     }
 
-    &__Peliculas {
-        @extend .estilo-proximos-estrenos;
+    #pelicula-proximos-estrenos {
+        width: 100%;
+        margin: 1%;
     }
 
-    &__Series {
-        @extend .estilo-proximos-estrenos;
+    #pelicula-proximos-estrenos > img {
+        margin: 1%;
     }
-}
 
-.estilo-proximos-estrenos {
+    .animacion img {
+       transition: all 300ms;
+       position: relative;
+    }
 
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 1%;
+    .animacion img:hover {
+        transform: scale(1.05);
+    }
 }

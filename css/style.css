@@ -94,24 +94,23 @@ main .plataformas-hoy-y-cine {
   font-family: "Open Sans", sans-serif;
   margin: 2%; }
 
-main .flex-center {
+main .proximos-estrenos {
   display: flex;
   justify-content: center; }
 
-main #pelicula {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  width: 90%;
-  margin: auto;
-  grid-gap: 30px; }
-
-main #pelicula img {
+main #pelicula-proximos-estrenos {
   width: 100%;
-  transition: 300ms;
+  margin: 1%; }
+
+main #pelicula-proximos-estrenos > img {
+  margin: 1%; }
+
+main .animacion img {
+  transition: all 300ms;
   position: relative; }
 
-main #pelicula img:hover {
-  transform: scale(1.15); }
+main .animacion img:hover {
+  transform: scale(1.05); }
 
 main .mas-vistos-y-clasicos {
   color: #F5C518;
@@ -159,17 +158,23 @@ main .filtro-proximos-estrenos {
   text-align: center;
   margin-right: 2%; }
 
-main .ProximosEstrenos {
+main .proximos-estrenos {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 10px; }
+  justify-content: center; }
 
-.estilo-proximos-estrenos, main__Peliculas, main__Series {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+main #pelicula-proximos-estrenos {
+  width: 100%;
   margin: 1%; }
+
+main #pelicula-proximos-estrenos > img {
+  margin: 1%; }
+
+main .animacion img {
+  transition: all 300ms;
+  position: relative; }
+
+main .animacion img:hover {
+  transform: scale(1.05); }
 
 main .streaming {
   padding-left: 140px; }
