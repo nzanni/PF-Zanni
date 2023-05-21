@@ -56,16 +56,17 @@ main {
             width: 100%;
             margin: 1%;
 
-            img {
+            #pelicula-proximos-estrenos img {
+
                 margin: 1%;
+            }
 
-                .animacion {
-                    transition: all 300ms;
-                    position: relative;
+            .animacion {
+                transition: all 300ms;
+                position: relative;
 
-                    &:hover {
-                        transform: scale(1.05);
-                    }
+                &:hover {
+                    transform: scale(1.05);
                 }
             }
         }

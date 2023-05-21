@@ -98,13 +98,13 @@ main .proximos-estrenos {
   main .proximos-estrenos #pelicula-proximos-estrenos {
     width: 100%;
     margin: 1%; }
-    main .proximos-estrenos #pelicula-proximos-estrenos img {
+    main .proximos-estrenos #pelicula-proximos-estrenos #pelicula-proximos-estrenos img {
       margin: 1%; }
-      main .proximos-estrenos #pelicula-proximos-estrenos img .animacion {
-        transition: all 300ms;
-        position: relative; }
-        main .proximos-estrenos #pelicula-proximos-estrenos img .animacion:hover {
-          transform: scale(1.05); }
+    main .proximos-estrenos #pelicula-proximos-estrenos .animacion {
+      transition: all 300ms;
+      position: relative; }
+      main .proximos-estrenos #pelicula-proximos-estrenos .animacion:hover {
+        transform: scale(1.05); }
 
 main .cartelera-negra {
   background-color: black;
@@ -151,6 +151,16 @@ main .filtro-proximos-estrenos {
   justify-content: right;
   text-align: center;
   margin-right: 2%; }
+  main .filtro-proximos-estrenos .dropdown-item {
+    color: #F5C518;
+    background-color: black;
+    width: auto; }
+  main .filtro-proximos-estrenos a {
+    text-decoration: none;
+    color: #F5C518;
+    font-family: "Open Sans", sans-serif; }
+    main .filtro-proximos-estrenos a:hover {
+      color: white; }
 
 main .proximos-estrenos {
   display: flex;
@@ -158,13 +168,13 @@ main .proximos-estrenos {
   main .proximos-estrenos #pelicula-proximos-estrenos {
     width: 100%;
     margin: 1%; }
-    main .proximos-estrenos #pelicula-proximos-estrenos #pelicula-proximos-estrenos > img {
+    main .proximos-estrenos #pelicula-proximos-estrenos #pelicula-proximos-estrenos img {
       margin: 1%; }
-  main .proximos-estrenos .animacion {
-    transition: all 300ms;
-    position: relative; }
-  main .proximos-estrenos .animacion:hover {
-    transform: scale(1.05); }
+    main .proximos-estrenos #pelicula-proximos-estrenos .animacion {
+      transition: all 300ms;
+      position: relative; }
+      main .proximos-estrenos #pelicula-proximos-estrenos .animacion:hover {
+        transform: scale(1.05); }
 
 main .streaming {
   color: #F5C518; }
