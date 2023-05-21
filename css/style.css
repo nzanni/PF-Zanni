@@ -112,7 +112,14 @@ main .animacion img {
 main .animacion img:hover {
   transform: scale(1.05); }
 
-main .mas-vistos-y-clasicos {
+main .cartelera-negra {
+  background-color: black;
+  width: 100%; }
+  main .cartelera-negra .ancho-maximo {
+    display: flex;
+    text-align: center; }
+
+main .mas-vistos, main .mas-vistos__y-clasicos {
   color: #F5C518;
   font-size: 22px;
   font-family: "Open Sans", sans-serif;
@@ -134,21 +141,14 @@ main .padre {
       font-family: "Open Sans", sans-serif;
       font-weight: bold; }
 
-.cartelera-negra {
-  background-color: black;
-  width: 100%; }
-  .cartelera-negra .ancho-maximo {
-    display: flex;
-    text-align: center; }
-
-.modal-content {
+main .modal-content {
   background-color: #F5C518;
   color: black;
   align-items: center;
   width: 120%;
   overflow: hidden; }
 
-.modal-fade {
+main .modal-fade {
   justify-content: center;
   align-items: center; }
 

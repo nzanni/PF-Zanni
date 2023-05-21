@@ -1,9 +1,25 @@
 main {
-    .mas-vistos-y-clasicos {
+    .cartelera-negra {
+        background-color: $FondoBody;
+        width: 100%;
+
+
+        .ancho-maximo {
+            display: flex;
+            text-align: center;
+        }
+    }
+
+    .mas-vistos {
         color: $Letras;
         font-size: 22px;
         font-family: $Tipografia;
         margin-left: 40px;
+
+
+        &__y-clasicos {
+            @extend .mas-vistos;
+        }
     }
 
     .padre {
@@ -27,29 +43,18 @@ main {
             }
         }
     }
-}
 
-.cartelera-negra {
-    background-color: $FondoBody;
-    width: 100%;
-
-
-    .ancho-maximo {
-        display: flex;
-        text-align: center;
+    .modal-content {
+        background-color: #F5C518;
+        color: black;
+        align-items: center;
+        width: 120%;
+        overflow: hidden;
     }
-}
 
-.modal-content {
-    background-color: #F5C518;
-    color: black;
-    align-items: center;
-    width: 120%;
-    overflow: hidden;
-}
+    .modal-fade {
+        justify-content: center;
+        align-items: center;
 
-.modal-fade {
-    justify-content: center;
-    align-items: center;
-
+    }
 }
