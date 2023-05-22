@@ -11,4 +11,10 @@ main {
             justify-content: center;
         }
     }
+
+    .dropdown-item {
+        color: $Letras;
+        background-color: $FondoBody;
+        width: auto;
+    }
 }

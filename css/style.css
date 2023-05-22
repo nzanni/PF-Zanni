@@ -60,6 +60,11 @@ main .nombre-ubicaciones {
     display: flex;
     justify-content: center; }
 
+main .dropdown-item {
+  color: #F5C518;
+  background-color: black;
+  width: auto; }
+
 main .filtro-donde-ver {
   display: flex;
   justify-content: right;
